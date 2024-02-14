@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-gw5h
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0071-tenant/tkwch-fix-0075-0071-app/devfile-sample-gw5h@sha256:5ecc33ea232e6150db2e7e47fc98d536e132bcd4f4bcae860fbf857d456d7a9b
+        name: my-nodejs
+        resources: {}
+status: {}
