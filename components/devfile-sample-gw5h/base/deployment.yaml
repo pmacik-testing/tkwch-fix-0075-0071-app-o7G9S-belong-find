@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-gw5h
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0071-tenant/tkwch-fix-0075-0071-app/devfile-sample-gw5h@sha256:5ecc33ea232e6150db2e7e47fc98d536e132bcd4f4bcae860fbf857d456d7a9b
         name: my-nodejs
         ports:
         - containerPort: 3001
